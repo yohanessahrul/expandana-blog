@@ -1,0 +1,48 @@
+$xtra-small: 300px;
+$small: 750px;
+$medium: 900px;
+
+.Wrapper {
+    .HeadSection {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 24px;
+        .Title {
+            color: #164278;
+            font-size: 1.5rem;
+            margin-bottom: 24px;
+            &:after {
+                content: "";
+                display: block;
+                width: 40%;
+                border-radius: 4px;
+                margin-top: 3px;
+                border-bottom: 5px solid #f86;
+            }
+        }
+        .SeeMore {
+            color: #2976d4;
+            font-size: 1.5rem;
+            margin-bottom: 24px;
+        }
+    }
+}
+
+
+@media screen and (max-width: $small) {
+    .Wrapper {
+        .HeadSection {
+            .Title {
+                font-size: 1.2rem;
+                margin-bottom: 16px;
+                &:after {
+                    margin-top: 3px;
+                }
+            }
+            .SeeMore {
+                font-size: 1.2rem;
+                margin-bottom: 16px;
+            }
+        }
+    }
+}
