@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from '../.././../../styles/custom/Home/Article/Card/Detail.module.scss';
+import { formatDisplayDate } from '../../../../helper/GlobalFunc';
 
 export default function Detail(props) {
 
@@ -21,7 +22,7 @@ export default function Detail(props) {
                         </a>
                     </div>
                     <div className={classes.Description}>{props.article.subtitle}</div>
-                    <div className={classes.Date}><i>Expandana / 1 Desember 2020 *</i></div>
+                    <div className={classes.Date}><i>Expandana / {formatDisplayDate(props.article.publish_datetime)}</i></div>
                 </div>
             </div>
         </div>
