@@ -20,6 +20,7 @@ export default function Home() {
                             <Article />
                         </div>
                         <div className="col-md-4">
+                            
                             {/* Incididunt voluptate esse enim pariatur id consequat deserunt aliquip. */}
                         </div>
                     </div>
