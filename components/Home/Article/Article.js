@@ -39,8 +39,8 @@ export default function Article() {
                 <div className={classes.SeeMore}>See More</div>
             </div>
             {content}
-            <button onClick={() => window.navigator.vibrate([1000, 500, 1000])}>Test Vibrate</button>
-            <button onClick={() => window.navigator.vibrate([200, 500, 300, 100, 400])}>Test Vibrate 2</button>
+            {/* <button onClick={() => window.navigator.vibrate([1000, 500, 1000])}>Test Vibrate</button>
+            <button onClick={() => window.navigator.vibrate([200, 500, 300, 100, 400])}>Test Vibrate 2</button> */}
         </div>
     )
 }
