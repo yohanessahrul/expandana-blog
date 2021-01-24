@@ -40,6 +40,7 @@ export default function Article() {
             </div>
             {content}
             <button onClick={() => window.navigator.vibrate([1000, 500, 1000])}>Test Vibrate</button>
+            <button onClick={() => window.navigator.vibrate([200, 500, 300, 100, 400])}>Test Vibrate 2</button>
         </div>
     )
 }
